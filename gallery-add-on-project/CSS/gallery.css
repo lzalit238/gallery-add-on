@@ -1,0 +1,114 @@
+
+body {
+    padding: 25px;
+    background-color: cadetblue;
+    color: black;
+    font-family: myFirstFont;
+}
+
+.dark-mode {
+    background-color: rgb(21, 35, 36);
+    color: rgb(204, 197, 197);
+}
+@font-face {
+    font-family: myFirstFont;
+    src:url(../fonts/AniTypewriter.ttf)
+}
+
+h4 {
+    font-size: x-large;
+}
+h5 {
+    font-size: larger;
+}
+h6 {
+    font-size: large;
+}
+.unorderList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#navListed {
+    float: left;
+}
+.navAnchorLinks{
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    background-color:  rgb(66, 114, 114);
+    color: black;
+}
+.navAnchorLinks:hover {
+    background-color: darkcyan;
+}
+img {
+    border: black double;
+}
+
+div#bio {
+    display: flex;
+    float: left;
+}
+.flexContainer {
+    background-color: rgb(66, 114, 114);
+
+}
+
+.flexContainer1 {
+    display: flex;
+    background-color: rgb(66, 114, 114);
+    float: left;
+}
+.flexContainer2 {
+    display: flex;
+    background-color: rgb(66, 114, 114) ;
+}
+.flexContainer3 {
+    display: flex;
+    background-color: rgb(66, 114, 114) ;
+    float: left;
+}
+.flexContainer4 {
+    display: flex;
+    float: left;
+}
+
+/*extras layout*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: .25%;
+    padding: 5px;
+}
+#item1 {
+    grid-column: 1 /span 1;
+    grid-row: 1;
+}
+#item2 {
+    grid-column: 2 /span 1;
+    grid-row: 1 /span 1;
+}
+
+/*merch*/
+.box1 {
+    float: left;
+}
+.float-a {
+    float: left;
+}
+.float-b {
+    float: right;
+}
+
+.wrapper {
+    background-color: rgb(66, 114, 114);
+    padding: 10px;
+    overflow: auto;
+}
+
+/*titles on extra page*/
+.below{
+    padding: 40px;
+    background-color: rgb(41, 66, 68);
+}
